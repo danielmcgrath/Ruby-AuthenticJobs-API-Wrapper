@@ -1,8 +1,7 @@
 Authentic Jobs API Wrapper for Ruby
 ===================================
 
-Methods:
---------
+## Methods: ##
 * getTypes
   * Accepts no arguments, returns all available job types
 * getCompanies
@@ -14,12 +13,10 @@ Methods:
 * searchJobs
   * Accepts an object with the following properties: category, company, keywords, location, page, perpage, sort, type, and returns all jobs that meet the passed criteria
 
-Usage:
-------
-\>\>\> require 'rubyjobs'  
-\>\>\> request = RubyJobs.new("***YOUR API KEY***")   
-\>\>\> request.searchJobs({"location"=>"VA"})  
+## Usage: ##
+>>> require 'rubyjobs'  
+>>> request = RubyJobs.new("***YOUR API KEY***")   
+>>> request.searchJobs({"location"=>"VA"})  
 
-API Keys:
----------
+## API Keys: ##
 Apply for one here: http://www.authenticjobs.com/api/
